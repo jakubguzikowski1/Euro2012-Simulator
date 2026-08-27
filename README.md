@@ -138,12 +138,6 @@ clang-format -i src/logic/*.{h,cpp} src/gui/*.{h,cpp} src/main.cpp
 
 ---
 
-## License
-
-Released under the [MIT License](LICENSE).
-
----
-
 ## Author
 
-**Jakub Guzikowski** — coursework project prepared for a public GitHub portfolio.
+**Jakub Guzikowski**
