@@ -1,0 +1,104 @@
+# ----- Build artefacts -----
+build/
+Build/
+out/
+bin/
+lib/
+cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.user
+*.user.*
+*.autosave
+
+# ----- Compilers / linkers -----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.pch
+*.gch
+*.mod
+
+# ----- Qt / qmake -----
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qm
+*.qmake.stash
+.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+.qtcreator/
+.qtc_clangd/
+
+# ----- IDE / editors -----
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+.clangd/
+.cache/
+compile_flags.txt
+
+# ----- Doxygen / docs output -----
+dokumentacja_euro/
+docs/doxygen/
+docs/html/
+docs/latex/
+doxygen_output/
+html/
+latex/
+*.dox.bak
+
+# ----- OS junk -----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+__MACOSX/
+
+# ----- Temp / logs -----
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+*.rej
+
+# ----- Packages -----
+vcpkg_installed/
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+
+# ----- Secrets -----
+.env
+.env.*
+*.pem
+*.key
